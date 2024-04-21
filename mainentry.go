@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/snehasis007/sn-org/corelib2/base"
+	"github.com/snehasis007/corelib2/base"
 )
 
 // func random() int {
@@ -20,7 +20,8 @@ func main() {
 	//arr := []int{1, 23, 13, 10}
 
 	arr2 := []base.DataItemImpl{{Index: 0, Value: 9}, {Index: 1, Value: 7}, {Index: 2, Value: 5}, {Index: 3, Value: 1}}
-	base.QuickSort(arr2, 0, len(arr2)-1)
+	//base.QuickSort(arr2, 0, len(arr2)-1)
+	base.Con()
 	fmt.Println(arr2)
 	//fmt.Printf("%d")
 
